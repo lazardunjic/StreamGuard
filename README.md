@@ -1,1 +1,3 @@
 # StreamGuard
+StreamGuard is a real-time anomaly detection pipeline for live data streams. It ingests high-frequency sensor data through Apache Kafka, processes it using a custom implementation of the DBSCAN clustering algorithm, and exposes detected anomalies via a REST API built with Java and Spring Boot. Detected anomalies are persisted in DynamoDB and visualized through a React dashboard with real-time updates.
+The project demonstrates stream processing, concurrent data pipelines, and unsupervised machine learning in a production-like environment, with infrastructure emulated locally using Docker and LocalStack.
